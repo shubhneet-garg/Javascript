@@ -26,7 +26,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // slice, splice
 // slice will return a new array with the selected elements. It will not modify the original array.
-// splice will modify the original array and return the removed elements.
+// splice will modify the original array and return the removed elements and it it will remove the elements from the original array.
 
 console.log("A ", myArr); // A  [ 0, 1, 2, 3, 4, 5 ]
 
