@@ -29,6 +29,6 @@ const shoppingCart = [
     },
 ]
 
-const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
+const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0) // 0 goes to acc then new value come in place of 0 and that goes to acc again
 
 console.log(priceToPay);
